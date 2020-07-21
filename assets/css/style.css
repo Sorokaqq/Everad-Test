@@ -1,0 +1,834 @@
+body {
+	font-family:  'Roboto', sans-serif;
+	font-weight: 500;
+}
+.container {
+	padding: 0;
+}
+.no-padding {
+	padding: 0;
+}
+.bg {
+	background: url(../img/bg.jpg) no-repeat;
+}
+.logo {
+	margin: 8px 0 0 0;  
+	padding-right: 88px;  
+}
+	.logo__name {
+		font-size: 19px;
+		margin: 0 0 0 8px;
+	}
+	.logo img {
+		max-width: 75px;
+		position: relative;
+    	top: -3px;		
+	}
+
+.icon {
+	display: flex;
+	margin: 20px 0 0 0;
+	padding: 0;
+}
+	.icon img {
+		max-width: 50px;
+    	align-self: start;
+    	margin-right: 8px;
+    	position: relative;
+    	top: -8px;
+	}
+	.icon span {
+		font-size: 13px;
+		line-height: 1.1;
+		font-weight: bold;
+		color: #666666;
+		opacity: 0.8;
+	}
+.icon_1 {
+	margin-left: -14px;
+	padding-right: 10px;
+}
+.icon_2 {
+	margin-left: 8px;
+	padding-left: 0px;
+}
+.icon_3 {
+	margin-left: -20px;
+	padding-left: 0px;
+}
+.pills {
+	position: relative; 
+}
+	.pills span {
+	    position: absolute;
+	    color: white;
+	    border-radius: 7px;
+	    font-size: 28px;
+	    line-height: 32px;
+	    padding: 0px 5px 0 10px
+	}
+		.pill_orange {
+			background:#ff6b00;
+		    right: 29%;
+    		top: -4%;
+		}
+		.pill_green {
+			background:#a8ca3f;
+		    top: 37%;
+    		right: 11%;
+		}
+	.pills img {
+		width: 100%;
+	}
+	.pills__img {
+	    position: absolute;
+	    top: 357px;
+	    left: 70px;
+	}
+.description {
+	padding: 0;
+	margin: 36px -8px 0 2px;
+}
+	.description__title {
+		line-height: 38px;
+	    font-size: 38px;
+	    width: 260px;
+	    font-weight: bold;
+	}
+		.description__title span {
+			font-size: 28.4px;
+			position: relative;
+    		top: -5px;
+		}
+		.description__title b {
+			font-size: 28.4px;
+			position: relative;
+   			top: -5px;
+		}
+	.description__text {
+		display: flex;
+		flex-direction: column;
+		margin: 26px 0 0 0;		
+	}
+	.description__view {
+		display: flex;
+	    flex-direction: row;
+	}
+		.description__view .circle {
+			background-color: #a7c93d;
+			border-radius: 50%;
+			border: 5px solid #e8edc9;
+			width: 50px;
+		    height: 50px;
+		    margin-right: 18px;
+		    align-self: center;
+		}
+
+		.circle span {
+			text-align: center;
+			color: white;
+		}
+			.circle span p {
+				margin-top: 8px;
+			}
+		.description__view_text {
+		    width: 239px;
+    		font-size: 15.6px;
+		    line-height: 21px;
+		    letter-spacing: 0.6px;		  
+		    color: #6f6f6f;
+		}
+			.description__view_text b {
+				color: black;
+			}
+
+.br-green {
+	border-bottom: 4px solid #a7c93d;
+}
+
+.br-orange {
+	border-bottom: 4px solid #ff6b00;
+}
+.tb-green {
+	border-bottom: 2px solid #a7c93d;
+}
+
+.tb-orange {
+	border-bottom: 2px solid #ff6b00;
+}
+.arrow1 {
+    margin: -4px 0 -10px 0;
+}
+.arrow2 {
+	margin: -3px 0 -14px 0;
+}
+
+.form {
+	background: url(../img/form_lg.png) no-repeat;
+	margin-top: 35px;
+    padding: 0;
+    margin-left: 6px;
+    text-align: center;
+}
+	.form__delivery {
+		text-align: center;
+		font-size: 14px;
+	}
+		.form__delivery img {
+			position: relative;
+			top: -2px;
+		}
+	.form__title {
+		letter-spacing: 0.4px;
+	    line-height: 18px;
+	    margin-top: 21px;
+	}
+		.form__title span {
+			color: #ff6b00;
+		}
+		.form__title p {
+			margin-bottom: 0;
+		}
+	.form__price {
+		display: flex;
+		justify-content: center;		
+	}
+		.form__price_first {
+    		margin-right: 10px;
+		}
+			.form__price_first p {
+				font-size: 12px;
+				margin-top: 10px;
+				margin-bottom: 0;
+			}
+			.form__price_first span {
+				font-size: 29px;
+				font-weight: 100;
+			}
+			.old-price {
+			  display: inline-block;
+			  position: relative;
+			}
+				.old-price:before,
+				.old-price:after {
+				  content: "";
+				  position: absolute;
+				  left: 0;
+				  top: 50%;
+				  width: 100%;
+				  height: 1px;
+				  background-color: #c5663b;
+				  transform: rotate(15deg);
+				}
+				.old-price:after {
+				  transform: rotate(-15deg)
+				}
+		.form__price_second {
+    		margin-left: 10px;
+		}
+			.form__price_second p {
+			    margin-top: 10px;
+    			font-size: 12px;
+    			margin-bottom: 0;
+
+			}
+			.form__price_second span {
+				font-size: 29px;
+			    background: #ffc102;
+			    border-radius: 5px;
+			    font-weight: bold;
+			    padding: 0 8px;							
+			}
+	.form__user {
+		display: flex;
+		justify-content: center;
+		margin: 6px 0;
+	}		
+		.form__user p {
+			border: 0.3px solid #beb4b4;
+		    border-radius: 30px;
+		    width: 190px;
+		    padding: 12px;
+		    background: #eef2f7;
+		}
+		.form__user input {
+			width: 135px;
+		    font-size: 14px;
+		    font-weight: 500;
+		    background: #eef2f7;
+		    border: 0;
+		    outline:none;
+		    padding: 0 5px;
+		}
+		.form__user_submit {		
+		}
+			.form__user_submit a {
+			    text-decoration: none;	
+			}
+				.form__user_submit a:hover {
+				    color: black;
+				}
+			.form__user_submit p {
+			    line-height: 14px;
+			    color: black;
+			    font-size: 24px;
+			    background-color: #ffc502;
+			    margin-top: 17px;
+			    font-weight: bold;
+			}
+				.form__user_submit p:hover {
+					background-color: #d2a304;
+				}
+			.form__user_submit span {
+			    font-size: 14px;
+			}
+	.form__clarific {
+    	margin-top: -7px;
+	}
+		.form__clarific p {			
+		    font-size: 15px;
+		    line-height: 17px;
+		}
+		.form__clarific span {
+			color: #9dbd39;
+		}
+	.form__fotter {
+		margin-top: 18px;
+		margin-bottom: 66px;
+	}
+		.form__fotter img {
+			width: 23px;
+		    position: relative;
+		    top: -1px;
+		    left: -1px;
+		}
+		.form__fotter p {
+			font-size: 12px;
+		}
+
+.info_center {
+    margin-top: 115px;
+    position: relative;
+    left: 59px;
+}
+	.info_center p {
+	    font-size: 41px;
+	    font-weight: bold;
+	    margin-top: 9px;
+	    line-height: 56px;
+	}
+	.info_center span {
+	    font-size: 20.6px;
+	}
+
+.effects {
+	position: relative;
+    left: 108px;
+    top: -13px;
+}
+	.effects:nth-child(3) {
+    	padding-left: 66px;
+	}	
+	.effects p {
+		align-self: center;
+	    margin-top: 50px;
+	    margin-left: 12px;
+	    font-size: 18px;
+	    line-height: 24px;
+	}
+
+.effects_descript {
+	position: relative;
+    left: 128px;
+    top: -12px;
+    padding-right: 0;
+    font-size: 15.4px;
+}
+	.effects_descript:nth-child(2) {
+    	padding-left: 63px;
+    	padding-right: 55px;
+	}
+	.effects_descript p {
+		margin-top: -4px;
+		margin-bottom: 30px;
+	}
+	.effects_descript hr {
+	    border: 1px solid #becbd8;
+	    width: 42px;
+    	margin-top: 26px;
+    	margin-left: 0;
+	}
+.fieldset_footer {
+    margin: 3px 0 25px 0;
+}
+	.fieldset_footer p {
+		padding: 5px 35px 13px 35px;
+	    font-size: 19px;
+	    line-height: 25px;
+	}
+	.fieldset_footer legend {
+		width: 17%;
+	}
+	.fieldset_footer fieldset {
+	    border: 2px solid #f4d3bb;
+        width: 1004px;
+	    position: relative;
+	    left: 126px;
+	    border-radius: 10px;
+	}
+
+@media (max-width: 1199px) {
+	.bg {
+		/*background-image: none;*/
+	}
+
+	.logo {
+	    margin: 8px -50px 0 0;
+   		padding-right: 127px;
+	}
+	.icon span {
+	    margin-right: -30px;
+	}
+	.icon_1 {
+	    margin-left: -27px;
+	}
+	.icon_2 {
+	    margin-left: 30px;
+	}
+	.icon_3 {
+    	margin-left: -3px;
+	}
+	.pills span {
+        font-size: 25px;
+	}
+	.no-padding {
+	    margin-right: -15px;
+	}
+	.description {
+	    margin: 38px 0 0 -10px;
+	}	
+		.description__title {
+    		font-size: 33px;
+			line-height: 34px;
+			width: 224px
+		}
+			.description__title span {
+			    font-size: 23.4px;
+			}
+			.description__title b {
+			    font-size: 23.4px;
+			}
+		.description__text {
+			width: 289px;
+		}
+			.description__view_text {
+		        width: 231px;
+			    font-size: 15px;
+			    letter-spacing: 0.6px;
+			}
+		.description__view .circle {
+	        width: 45px;
+		    height: 45px;
+		    margin-right: 14px;
+		    border: 4px solid #e8edc9;
+		}
+			.circle span p {
+			    margin-top: 7px;
+			    font-size: 15px;
+			}
+	.arrow1 {
+		margin-top: -8px
+	}
+		.arrow1 img {
+			position: relative;
+			right: 3px;
+		}
+		.arrow2 img {
+			position: relative;
+			right: 4px;
+		}
+
+
+	.form {
+		background: url(../img/form_md.png) no-repeat;
+		margin-left: 10px;
+	}
+		.form__delivery {
+			font-size: 12px;
+		}
+			.form__delivery img {
+   				width: 23px;
+			}
+		.form__title {
+			font-size: 15px;
+		}
+		.form__price {
+		}
+			.form__price_first p {
+			    font-size: 11px;
+			}
+			.form__price_second p {
+			    font-size: 11px;
+			}
+			.form__price_first span {
+			    font-size: 27px;
+			}
+			.form__price_second span {
+			    font-size: 27px;
+			}
+		.form__user {
+		}
+			.form__user img {
+				width: 25px
+			}
+			.form__user p {
+			    width: 165px;
+		        padding: 10px;
+    			margin-bottom: 11px;
+			}
+			.form__user input {
+				width: 115px;
+    			font-size: 13px;
+			}
+			.form__user_submit p {
+			    font-size: 20px;
+		        margin-top: 12px;	
+			}
+			.form__user_submit span {
+			    font-size: 12px;
+			}
+		.form__clarific {
+		}
+			.form__clarific p {
+			    font-size: 14px;
+			    line-height: 14px;
+			    margin-bottom: -18px;
+			}
+		.form__fotter {
+		}
+			.form__fotter p {
+			    font-size: 11px;
+		        margin-bottom: 123px;
+   				margin-top: 30px;		
+			}
+			.form__fotter img {
+			    width: 21px;
+			    top: -3px;
+			}
+
+	.effects {
+		left: 60px;
+	}
+		.effects img {
+		    width: 124px;
+		    height: 124px;
+		}
+		.effects p {
+		    margin-top: 25px;
+		}
+		.effects:nth-child(3) {
+		    padding-left: 15px;
+		}
+	.effects_descript {
+	    left: 60px;
+	}
+		.effects_descript:nth-child(2) {
+    		padding-right: 25px;
+    		padding-left: 35px;
+		}
+	.info_center {
+		position: initial;
+	    margin-top: 50px;
+	}
+		.info_center p{
+			font-size: 39px;
+		    line-height: 50px;
+		}
+		.info_center span {
+		    font-size: 18.6px;
+		}
+	.fieldset_footer {
+	    display: flex;
+	    justify-content: center;
+	}
+		.fieldset_footer p {
+			font-size: 18px;
+		}
+		.fieldset_footer fieldset {
+			width: 97%;
+			position: initial;
+		}
+}
+@media (max-width: 991px) {
+	.row {
+		margin-right: -10px;
+	}
+	.text-right{
+		text-align: left!important;
+	}
+	.logo {
+	    margin: 8px -12px 0 0;
+	    padding-right: 56px;
+	}
+	.description {
+	    margin-left: 53px;
+	}
+	.form {
+	    background: url(../img/form_sm.png) no-repeat;
+	    margin-left: -65px;
+	}
+	.form__user p {
+	    margin-bottom: 13px;
+	}
+	.form__fotter p {
+	    margin-bottom: 0; 
+	    margin-top: 38px;
+	}
+	.form__delivery {
+	    position: relative;
+	    top: 8px;
+	}
+	.pill_orange {
+		right: 36%;
+	}
+	.pill_green {
+		right: 27%;
+	}
+	.pills img {
+	    width: 70%;
+	}
+	.pills__img {
+		position: initial;
+		display: flex;
+		justify-content: center;
+	}
+	.info_center {
+        margin-top: 35px;
+	}
+		.info_center p {
+		    font-size: 35px;
+		    line-height: 43px;
+		}
+		.info_center span {
+		    font-size: 16.6px;
+		}
+	.effects {
+	    position: initial;
+	}
+		.effects:nth-child(2) {
+	     padding-left: 15px; 
+	}	
+	.effects_descript {
+   		position: initial;
+   		padding-left: 33px;
+   		padding-right: 33px;
+   	}
+   		.effects_descript:nth-child(2) {
+		    padding-left: 33px;
+   			padding-right: 33px;
+		} 
+	.effects_descript hr {
+        margin-top: 15px;
+    	margin-bottom: 10px;
+
+	}
+	.fieldset_footer legend {
+	    width: 21%;
+	}
+}
+
+@media (max-width: 767px) {
+	.row {
+	    margin-right: 0;
+	    margin-left: 0;
+	}
+	.text-right {
+		text-align: center!important;
+	}
+	.logo {
+		padding: 0;
+		margin: 23px 0 17px 0;
+	}
+	.logo__name {
+	    font-size: 25px;
+	}
+	.icon {
+		justify-content: center;
+		padding: 0;
+		margin: 9px 0 0 0;
+	}
+		.icon span {
+            font-size: 16px;
+		}
+		.icon_1 {
+		    margin-left: 7px;
+		}
+		.icon_2 {
+	    	margin-left: -35px;
+		}
+		.icon_3 {
+	    	margin-left: -2px;
+		}
+	.pills {
+	    margin: 4em 0;
+	}
+		.pills img {
+		    width: 75%;
+		}
+		.pills span {
+			font-size: 22px;
+		}
+	.description {
+    	margin: 25px 0 0 0;
+	    padding: 0
+	}
+	.description__text {
+	    width: 92%;
+	}
+	.description__title {
+	    font-size: 30px;
+	    width: 100%;
+	}
+		.description__title span {
+		    font-size: 25.4px;
+		}
+		.description__title b {
+		    font-size: 25.4px;
+		}
+	.description__view .circle {
+	    width: 45px;
+	    height: 45px;
+	    border: 4px solid #e8edc9;
+	}
+	.description__view_text {
+	    width: 86%;
+        font-size: 17px;
+	}
+		.description__view_text br {
+			display: none;
+		}
+	.circle span p {
+	    margin-top: 6px;
+	    font-size: 17px;
+	}
+	.arrow1 {
+	    margin: -3px 0;
+	}
+		.arrow1 img {
+		    right: 2px;
+		}
+	.arrow2 {
+	    margin: 2px 0 1px 0;
+	}
+		.arrow2 img {
+		    right: 3px;
+		}
+	.form {
+	    background: url(../img/form_sm2.png) no-repeat;
+        margin: 20px 0 0 0
+	}
+	.form__fotter {
+	    margin-bottom: 15px;
+	}
+	.info_center {
+	    margin-top: 21px;
+	}
+	.info_center p {
+	    font-size: 33px;
+	    line-height: 34px;
+	}
+	.effects_descript {
+	    padding-right: 29px;
+	}
+		.effects_descript:nth-child(2) {
+		    padding-right: 29px;
+		}
+	.fieldset_footer legend {
+	    width: 26%;
+	}
+}		
+
+@media (max-width: 575px) {
+	.icon {
+	    justify-content: center;
+	}
+	.icon_1 {
+	    margin-left: -15px;
+	}
+	.icon_2 {
+    	margin-left: -47px;
+	}
+	.icon_3 {
+	    margin-left: -20px;
+	}
+	.icon span {
+	    font-size: 12px;
+	}
+	.pills {
+	    margin: 2em 0;
+	}
+		.pills img {
+		    width: 95%;
+		}
+		.pills span {
+		    font-size: 20px;
+	        line-height: 28px;
+		}	
+	.pill_orange {
+	    right: 31%;
+	}
+	.pill_green {
+	    right: 20%;
+	}
+	.description {
+	    margin-top: 7px;
+	}
+	.description__text {
+	    padding: 0 10px;
+	    width: 100%;
+	}
+	.description__title {
+        font-size: 25px;
+	    padding: 0px 15px;
+	    width: 320px;
+	}
+		.description__title span {
+	    	font-size: 21.4px;
+		}
+		.description__title b {
+			font-size: 21.4px;
+		}
+	.description__view_text {
+        width: 79%;
+	    font-size: 15.4px;;
+	}
+	.form {
+	    background: none;
+	    margin: 20px 0 0 0;
+	}
+		.form__img {
+		    position: relative;
+		    margin-bottom: -27.34em;
+		}
+	.info_center p {
+	    font-size: 30px;
+	    line-height: 32px;
+	}
+	.info_center span {
+	    font-size: 15.6px;
+	    line-height: 0px;
+	}
+	.effects_descript {
+	    padding-right: 15px;
+	}
+		.effects_descript:nth-child(2) {
+		    padding-right: 15px;
+		}
+
+
+
+
+
+
+}
+
